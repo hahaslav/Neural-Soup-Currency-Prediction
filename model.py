@@ -1,10 +1,7 @@
 import torch
-from sklearn.preprocessing import MinMaxScaler
 from torch import nn
 from torch.functional import F
-from torch.serialization import safe_globals
-
-from forex_prediction.constants import CHECKPOINT_PATH
+from constants import CHECKPOINT_PATH
 
 
 class RatePredictor(nn.Module):

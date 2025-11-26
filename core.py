@@ -4,9 +4,9 @@ import torch
 from curl_cffi import requests
 import yfinance as yf
 
-from forex_prediction.constants import CURRENCY_PAIR_TO_TICKER
-from forex_prediction.model import init_model
-from forex_prediction.utils.plotting import plot_future_rate
+from constants import CURRENCY_PAIR_TO_TICKER
+from model import init_model
+from utils.plotting import plot_future_rate
 
 
 def prepare_data(df, window_size=60):
