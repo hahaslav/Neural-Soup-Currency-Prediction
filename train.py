@@ -3,8 +3,8 @@ import torch
 from torch import nn
 from torch.optim import Adam
 
-from forex_prediction.constants import CHECKPOINT_PATH
-from forex_prediction.utils.plotting import plot_losses
+from .constants import CHECKPOINT_PATH
+from .utils.plotting import plot_losses
 from core import prepare_data
 from dataset import ForexDataset
 from model import RatePredictor
