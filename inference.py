@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 
 if __name__ == "__main__":
-    currency_pair = 'UAH-EUR'
+    currency_pair = "USD-UAH"#'UAH-EUR'
 
     end_date = datetime.now().date()
     start_date = datetime.now().date() - timedelta(days=120)
